@@ -250,7 +250,8 @@
 
 [在自定义View中如何开启硬件加速](android/thread.md)
 
-[淘宝如何做到展示亿级商品（强排版，强交互实现机制）](android/thread.md)
+[淘宝如何做到展示亿级商品（强排版，强交互实现机制）](https://github.com/xiangjiana/androids#
+)
 
 [-----持续更新   未完待续-------](#)
 
@@ -274,7 +275,8 @@
 
 [-----持续更新   未完待续-------](#)
 
-[GitHub干货集合](https://github.com/interviewandroid/AndroidInterView)
+[GitHub干货集合](https://github.com/xiangjiana/androids#
+)
 
 #### 后续持续更新中，添加QQ群：892872246, 备注github
 
