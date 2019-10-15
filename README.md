@@ -67,19 +67,23 @@
 
 - [腾讯课堂-硬编码与软编码区别，录屏时如何选取硬编与软编](android/mediacodec.md)
 
-- [Flutter为什么会做到一处写 处处运行 与RN的区别](android/thread.md)
+- [Flutter为什么会做到一处写 处处运行 与RN的区别](https://github.com/xiangjiana/androids#
+)
 
-- [Flutter的图形引擎与Android的渲染引擎原理](android/thread.md)
+- [Flutter的图形引擎与Android的渲染引擎原理](https://github.com/xiangjiana/androids#
+)
 
 - [对于Tersorflow你怎么理解的，有做过人工智能的应用吗](android/tersorflow.md)
 
-- [为什么Android会出现卡顿](android/thread.md)
+- [为什么Android会出现卡顿](https://github.com/xiangjiana/androids#
+)
 
 - [给你一个Demo 你如何快速定位ANR](android/anr.md)
 
 - [Hadler是如何实现线程通信的](study/framework/Android消息机制.md)
 
-- [Glide对Bitmap的缓存与解码复用如何做到的](android/thread.md)
+- [Glide对Bitmap的缓存与解码复用如何做到的](https://github.com/xiangjiana/androids#
+)
 
 - [说说你对Dalvik虚拟机的认识 ](android/dalvik.md)
 
@@ -127,7 +131,8 @@
 
 - [数据库版本如何单独升级，并且将原有数据迁移过去](tencent/sqlite.md)
 
-- [如何设计一个多用户，多角色的App架构](android/thread.md)
+- [如何设计一个多用户，多角色的App架构](https://github.com/xiangjiana/androids#
+)
 
 - [谈谈volatile关键字与synchronized关键字在内存的区别](android/volatile.md)
 
@@ -153,21 +158,29 @@
 
 - [抖音-有做过直播特效吗? 说说直播特效的实现原理与难点](android/live_meiyan.md)
 
-- [抖音-Include、Merge、ViewStub的作用和原理](android/thread.md)
+- [抖音-Include、Merge、ViewStub的作用和原理](https://github.com/xiangjiana/androids#
+)
 
-- [抖音-如何在脸部区域增加特效，怎样才能使这个特效跟随脸部](android/thread.md)
+- [抖音-如何在脸部区域增加特效，怎样才能使这个特效跟随脸部](https://github.com/xiangjiana/androids#
+)
 
-- [抖音-Include、Merge、ViewStub的作用和原理](android/thread.md)
+- [抖音-Include、Merge、ViewStub的作用和原理](https://github.com/xiangjiana/androids#
+)
 
-- [抖音-Opencv中定位人脸的五个点是如何做到的](android/thread.md)
+- [抖音-Opencv中定位人脸的五个点是如何做到的](https://github.com/xiangjiana/androids#
+)
 
-- [今日头条-为什么RecyclerView加载首屏会慢一些](android/thread.md)
+- [今日头条-为什么RecyclerView加载首屏会慢一些](https://github.com/xiangjiana/androids#
+)
 
-- [今日头条-View绘制机制，onMeasure  onLayout ,onDraw方法的调用机制谈一下](android/thread.md)
+- [今日头条-View绘制机制，onMeasure  onLayout ,onDraw方法的调用机制谈一下](https://github.com/xiangjiana/androids#
+)
 
-- [今日头条-ThreadLocal底层原理和Handler的关系](android/thread.md)
+- [今日头条-ThreadLocal底层原理和Handler的关系](https://github.com/xiangjiana/androids#
+)
 
-- [今日头条-sync关键字和lock的区别?  他们对线程的控制原理简单说下](android/thread.md)
+- [今日头条-sync关键字和lock的区别?  他们对线程的控制原理简单说下](https://github.com/xiangjiana/androids#
+)
 
   
 
@@ -175,21 +188,29 @@
 
 [为什么会用到EventBus,EventBus的源码详解与架构分析，使用EventBus会造成什么弊端](android/eventbus.md)
 
-[AOP面向切面编程原理](android/thread.md)
+[AOP面向切面编程原理](https://github.com/xiangjiana/androids#
+)
 
-[说说饿了么Hermes跨进程架构原理](android/thread.md)
+[说说饿了么Hermes跨进程架构原理](https://github.com/xiangjiana/androids#
+)
 
-[Message链表原理与重用机制是怎么实现](android/thread.md)
+[Message链表原理与重用机制是怎么实现](https://github.com/xiangjiana/androids#
+)
 
-[QQ是怎么做到皮肤换肤的，谈谈换肤原理](android/thread.md)
+[QQ是怎么做到皮肤换肤的，谈谈换肤原理](https://github.com/xiangjiana/androids#
+)
 
-[阿里巴巴ARouter原理执行流程，对组件化开发有什么好处](android/thread.md)
+[阿里巴巴ARouter原理执行流程，对组件化开发有什么好处](https://github.com/xiangjiana/androids#
+)
 
-[RePlugin插件化通过什么方式实现强兼容](android/thread.md)
+[RePlugin插件化通过什么方式实现强兼容](https://github.com/xiangjiana/androids#
+)
 
-[谈谈对Rxjava的底层认识，如何做到线程切换的](android/thread.md)
+[谈谈对Rxjava的底层认识，如何做到线程切换的](https://github.com/xiangjiana/androids#
+)
 
-[APT实现手写Dagger注入式框架](android/thread.md)
+[APT实现手写Dagger注入式框架](https://github.com/xiangjiana/androids#
+)
 
 [-----持续更新   未完待续-------](#)
 
@@ -197,23 +218,32 @@
 
 ### NDK相关面试
 
- [Java中有指针吗？说说 为什么C会需要指针](android/thread.md)
+ [Java中有指针吗？说说 为什么C会需要指针](https://github.com/xiangjiana/androids#
+)
 
-[MakeFile编译一个so库的流程](android/thread.md)
+[MakeFile编译一个so库的流程](https://github.com/xiangjiana/androids#
+)
 
-[CmakeList.txt中find_library语法是什么意思](android/thread.md)
+[CmakeList.txt中find_library语法是什么意思](https://github.com/xiangjiana/androids#
+)
 
-[谈谈阿里云andfix热修复原理](android/thread.md)
+[谈谈阿里云andfix热修复原理](https://github.com/xiangjiana/androids#
+)
 
-[直播推流中，通过rtmp协议发送一个packet包的流程](android/thread.md)
+[直播推流中，通过rtmp协议发送一个packet包的流程](https://github.com/xiangjiana/androids#
+)
 
-[直播中为什么需要将摄像头的NV21数据通过x264编码 再发送](android/thread.md)
+[直播中为什么需要将摄像头的NV21数据通过x264编码 再发送](https://github.com/xiangjiana/androids#
+)
 
-[怎么编译一个FFmpeg 并且集成到AndroidStudio中](android/thread.md)
+[怎么编译一个FFmpeg 并且集成到AndroidStudio中](https://github.com/xiangjiana/androids#
+)
 
-[webrtc是如何实现点对点通信的](android/thread.md)
+[webrtc是如何实现点对点通信的](https://github.com/xiangjiana/androids#
+)
 
-[谈下webrtc 内网穿透原理](android/thread.md)
+[谈下webrtc 内网穿透原理](https://github.com/xiangjiana/androids#
+)
 
 [-----持续更新   未完待续-------](#)
 
@@ -238,17 +268,23 @@
 
 ### 高级UI相关面试
 
-[你知道Bat公司如何对屏幕适配的](android/thread.md)
+[你知道Bat公司如何对屏幕适配的](https://github.com/xiangjiana/androids#
+)
 
-[谈谈对刘海屏开发与适配方案](android/thread.md)
+[谈谈对刘海屏开发与适配方案](https://github.com/xiangjiana/androids#
+)
 
-[Android9.0Api适配举例有哪些不一样的地方](android/thread.md)
+[Android9.0Api适配举例有哪些不一样的地方](https://github.com/xiangjiana/androids#
+)
 
-[讲讲你对UI绘制流程及其原理的](android/thread.md)
+[讲讲你对UI绘制流程及其原理的](https://github.com/xiangjiana/androids#
+)
 
-[谈谈你对事件传递机制的认识](android/thread.md)
+[谈谈你对事件传递机制的认识](https://github.com/xiangjiana/androids#
+)
 
-[在自定义View中如何开启硬件加速](android/thread.md)
+[在自定义View中如何开启硬件加速](https://github.com/xiangjiana/androids#
+)
 
 [淘宝如何做到展示亿级商品（强排版，强交互实现机制）](https://github.com/xiangjiana/androids#
 )
