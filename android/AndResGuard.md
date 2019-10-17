@@ -8,7 +8,7 @@
 
 > **心理分析**：面试官是非常注重性能优化的，考求职者是否具备APK压缩技能。
 
-> **求职者:**应该从每一步压缩开始，压缩的过程本质是挤牙膏的过程，一步一步挤。将Apk压缩分为8个步骤
+> **求职者**： 应该从每一步压缩开始，压缩的过程本质是挤牙膏的过程，一步一步挤。将Apk压缩分为8个步骤
 
 
 
@@ -82,7 +82,6 @@ android{
         resConfigs "en"
     }
 }
-复制代码
 ```
 
 
@@ -109,7 +108,6 @@ android{
 }
 }
 
-复制代码
 ```
 
 
@@ -148,12 +146,11 @@ Lint 是 Android Studio 提供的 代码扫描分析工具，它可以帮助我�
 //动态获取资源 id , 未直接使用 R.xx.xx ，则这个 id 代表的资源会被认为没有使用过(类似不能混淆反射类)
 int indetifier =getResources().getIdentifier("img_bubble_receive", "drawable", getPackageName()); getResources().getDrawable(indetifier);
 
-复制代码
 ```
 
 ### 5. 开启混淆
 
-如果有不了解 混淆 是什么的可以建议去看下我上一遍文章 [性能优化 (十一) ProGuard 对代码和资源压缩](https://juejin.im/post/5d05dab06fb9a07ea9446e21)
+如果有不了解 混淆 是什么的可以建议去看下文章 -性能优化  ProGuard 对代码和资源压缩
 
 
 
@@ -181,8 +178,7 @@ int indetifier =getResources().getIdentifier("img_bubble_receive", "drawable", g
               proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
           }
       }
-  复制代码
-  ```
+ ```
 
   
 
@@ -205,7 +201,6 @@ int indetifier =getResources().getIdentifier("img_bubble_receive", "drawable", g
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:keep="@layout/l_used*_c,@layout/l_used_a,@layout/l_used_b*"
     tools:discard="@layout/unused2" />
-复制代码
 ```
 
 将该文件保存在项目资源中，例如，保存在 `res/raw/keep.xml`。构建不会将该文件打包到 APK 之中。
@@ -221,7 +216,6 @@ int indetifier =getResources().getIdentifier("img_bubble_receive", "drawable", g
 ```
 String name = String.format("img_%1d", angle + 1);
 res = getResources().getIdentifier(name, "drawable", getPackageName());
-复制代码
 ```
 
 资源压缩器还会浏览代码以及各种 `res/raw/` 资源中的所有字符串常量，寻找格式类似于 `file:///android_res/drawable//ic_plus_anim_016.png` 的资源网址。如果它找到与其类似的字符串，或找到其他看似可用来构建与其类似的网址的字符串，则不会将它们移除。
@@ -232,7 +226,6 @@ res = getResources().getIdentifier(name, "drawable", getPackageName());
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:shrinkMode="strict" />
-复制代码
 ```
 
 如果您确已启用严格压缩模式，并且代码也引用了包含动态生成字符串的资源（如上所示），则必须利用 `tools:keep` 属性手动保留这些资源。
@@ -265,7 +258,6 @@ AndResGuard 是一个缩小 APK 大小的工具，它的原理类似 Java Progua
    dependencies {
           classpath 'com.tencent.mm:AndResGuard-gradle-plugin:1.2.16'
       }
-  复制代码
   ```
 
 - 在 app 目录下，创建 **and_res_guard.gradle** 文件
@@ -336,15 +328,13 @@ andResGuard {
     }
 }
 
-复制代码
 ```
 
 - 在 app 模块下的 build.gradle 文件添加
 
   ```
   apply from: 'and_res_guard.gradle'
-  复制代码
-  ```
+   ```
 
 - 打包完之后效果图
 
