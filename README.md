@@ -18,7 +18,7 @@
 
 ### 互联网的寒冬下，如何手握安卓70万年薪。一堂课带你走进象牙塔
 
-[为什么会发生互联网的寒冬](android/videowhy.md)
+[音视频是什么，视频为什么需要压缩](android/videowhy.md)
 
 [音频降噪原理，音频原理](android/voice.md)
 
